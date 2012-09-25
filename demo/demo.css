@@ -1,0 +1,43 @@
+
+.steps_main { 
+  text-align:center;
+}
+.steps_screen{ 
+  margin:0 10px;
+  display:inline-block;
+  text-align:left;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+  border: 5px solid #888;
+  border-radius: 30px;
+}
+.steps_controls>*{
+  margin: 10px;
+  padding: 0px 10px;
+  color: #fff;
+  font-size: 5em;
+  background: #aaa;
+  border-radius: 15px;
+  display: inline-block;
+}
+.steps_controls>a{
+  background: #888;
+}
+.steps_controls a:hover{
+  background: #999;
+}
+.steps_textbox {
+  padding: 10px;
+}
+.box1 {
+  color: #555;
+  border: 2px solid #666;
+  border-radius: 8px;
+  background: #ddd;
+}
+.box2 {
+  color: #fff;
+  background: #d88;
+}
+#page{
+  width: 1000px;
+}

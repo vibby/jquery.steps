@@ -1,0 +1,41 @@
+.steps_screen{ 
+  width:800px;
+  height:600px;
+  overflow: hidden;
+  position: relative;
+}
+.steps_inset{
+  position: absolute;
+}
+.steps_controls>a{
+  cursor: pointer;
+}
+.steps_textbox {
+  position: absolute;
+  z-index: 999999999;
+  opacity: 0;
+}
+.steps_mask {
+  height: 620px;
+  width: 820px;
+  position: absolute;
+  opacity: .5;
+  background: #000;
+  z-index: 999999998;
+}
+.steps_mask1 {
+  top:-620px;
+  left:-10px;
+}
+.steps_mask2 {
+  top:-10px;
+  left:820px;
+}
+.steps_mask3 {
+  top:600px;
+  left:-10px;
+}
+.steps_mask4 {
+  top:-10px;
+  left:-820px;
+}
